@@ -611,6 +611,7 @@
     <script id="zxcvbn-async-js-extra">
         var _zxcvbnSettings = {};
     </script>
+    
     <script src="<?= base_url() ?>assets/verification/zxcvbn-async.min.js.download" id="zxcvbn-async-js"></script>
     <script src="<?= base_url() ?>assets/verification/regenerator-runtime.min.js.download" id="regenerator-runtime-js"></script>
     <script src="<?= base_url() ?>assets/verification/wp-polyfill.min.js.download" id="wp-polyfill-js"></script>

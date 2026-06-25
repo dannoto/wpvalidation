@@ -56,7 +56,7 @@ def get_wordpress_collections():
             affiliation_type,
             real_sales_page
         FROM collections
-        WHERE is_wordpress = 1
+        WHERE is_wordpress = 1 AND is_wordpress_processed=1
     """
 
     cursor.execute(query)

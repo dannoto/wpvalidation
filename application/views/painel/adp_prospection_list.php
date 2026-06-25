@@ -472,7 +472,6 @@
         })
 
 
-
         // delete target
         function deleteTarget(target_id) {
 
